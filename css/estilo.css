@@ -1,0 +1,75 @@
+html, body{
+    height: 100%; /*ocupa 100% da área visível do navegador*/
+    margin: 0;
+    font-family: sans-serif;
+    color: #1d0202;
+}
+
+.parallax1{
+    position: relative; /*define posicionamento relativo*/
+    background-image: url("../img/eevee.jpg"); /*insere a imagem de fundo*/
+    height: 100%; /*ocupa 100% da div*/
+    opacity: 0.5; /*deixa a imagem mais opaca*/
+    background-attachment: fixed; /*deixa a imagem fixa*/
+    background-position: center; /*centraliza a imagem do fundo*/
+    background-repeat: no-repeat; /*não repete a imagem*/
+    background-size: cover; /*ajusta a imagem para a tela inteira*/
+}
+
+.caption{
+    position: absolute; /*define posicionamento relativo*/
+    left: 0; /*gruda no canto esquerdo*/
+    top: 50%; /*coloca no centro da div parallax1*/
+    width: 100%; /*define a largura*/
+    text-align: center; /*define o texto ao centro*/
+}
+
+.caption span.border{
+    background-color: #f90202;
+    color: white;
+    padding: 20px; /*define o espaçamento interno*/
+    font-size: 25px;
+    letter-spacing: 10px;
+    
+}
+
+.caption span.evoluCaption{
+    background-color: #ffffff;
+    color: black;
+    padding: 20px; /*define o espaçamento interno*/
+    font-size: 25px;
+    letter-spacing: 10px;
+    
+}
+
+.parallax2{
+    position: relative;
+    background-image: url(../img/evoluções.jpg);
+    height: 100%;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3{
+    position: relative;
+    background-image: url(../img/logo.jpg);
+    height: 100%;
+    opacity: 0.5;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    background-color: white;
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.box h3{
+    text-align: center;
+}
